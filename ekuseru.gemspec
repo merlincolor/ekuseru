@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name = %q{ekuseru}
-  s.version = "0.3.10"
+  s.version = "0.3.11"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nugroho Herucahyono", "Jacob Rothstein"]
@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.5.3}
   s.summary = %q{Export excel documents from Rails}
    
-  s.add_dependency 'rails', '>=3.0'
-  s.add_dependency 'spreadsheet', '~> 0.6.5.9'
+  s.add_dependency 'rails'
+  s.add_dependency 'spreadsheet', '~> 1.3'
 
 end
 
