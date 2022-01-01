@@ -3,7 +3,7 @@ require 'action_view'
 module Ekuseru
   module TemplateHandler
     class Eku
-      def call template
+      def call(template, _other)
         %{
           _ekuseru_setup
           xls = Spreadsheet::Workbook.new
